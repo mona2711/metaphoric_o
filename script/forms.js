@@ -122,7 +122,7 @@ function make_eng_form() {
                     // value: eng_scale[j - 1],
                     value:j,
                     class: 'form-check-input',
-                    // checked: 'true',
+                    checked: 'true',
                     required: 'true'
                 })
             ).append(
@@ -185,7 +185,7 @@ function make_empathy_form(form, type) {
                     value:j,
                     // value: empathy_scale[j - 1],
                     class: 'form-check-input',
-                    // checked: 'checked',
+                    checked: 'checked',
                     required: 'true'
                 })
             ).append(
